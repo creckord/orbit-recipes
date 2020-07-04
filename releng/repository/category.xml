@@ -65,17 +65,17 @@
       <query><expression type="match">id ~= /org.jboss.log*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
    </iu>
 
-   <category-def name="json" label="Orbit Bundles By Scope: NoSQL"/>
+   <category-def name="nosql" label="Orbit Bundles By Scope: NoSQL"/>
    <iu>
-      <category name="json"/>
+      <category name="nosql"/>
       <query><expression type="match">id ~= /*mongodb*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
    </iu>
    <iu>
-      <category name="json"/>
+      <category name="nosql"/>
       <query><expression type="match">id ~= /org.apache.cassandra*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
    </iu>
    <iu>
-      <category name="json"/>
+      <category name="nosql"/>
       <query><expression type="match">id ~= /met.prettyprint.hector*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
    </iu>
 
