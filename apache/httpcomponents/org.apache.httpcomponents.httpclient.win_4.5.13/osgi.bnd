@@ -25,7 +25,6 @@ Import-Package: \
  org.apache.http.client*;version="${httpclient-version-range}", \
  org.apache.http.conn*;version="${httpclient-version-range}", \
  org.apache.http.cookie*;version="${httpclient-version-range}", \
- org.apache.http.entity*;version="${httpclient-version-range}", \
  org.apache.http.impl.auth*;version="${httpclient-version-range}", \
  org.apache.http.impl.client*;version="${httpclient-version-range}", \
  org.apache.http.impl.conn*;version="${httpclient-version-range}", \
