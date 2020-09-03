@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jboss.resteasy.tracing.api" version="1.0.0" status="done">
+    <info>
+      <name>RESTEasy Tracing API</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>resteasy/org.jboss.resteasy.tracing.api</location>
+    </info>
+    <contact>
+      <name></name>
+      <email></email>
+      <company></company>
+    </contact>
+    <legal>
+      <ipzilla bug_id=""/>
+      <license>
+        <name>Common Development and Distribution License</name>
+        <reference>https://glassfish.java.net/public/CDDLv1.0.html</reference>
+      </license>
+      <package>resteasy-tracing-api-1.0.0.Final.jar</package>
+    </legal>
+  </project>
+</ip_log>

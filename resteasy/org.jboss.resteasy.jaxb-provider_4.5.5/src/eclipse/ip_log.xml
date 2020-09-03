@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jboss.resteasy.jaxb-provider" version="4.5.5" status="done">
+    <info>
+      <name>RESTEasy JAXB Provider</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>resteasy/org.jboss.resteasy.jaxb-provider</location>
+    </info>
+    <contact>
+      <name></name>
+      <email></email>
+      <company></company>
+    </contact>
+    <legal>
+      <ipzilla bug_id=""/>
+      <license/>
+      <package>resteasy-jaxb-provider-4.5.5.Final.jar</package>
+    </legal>
+  </project>
+</ip_log>

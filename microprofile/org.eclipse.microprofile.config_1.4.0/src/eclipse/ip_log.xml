@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.eclipse.microprofile.config" version="1.4.0" status="done">
+    <info>
+      <name>MicroProfile Config API</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>microprofile/org.eclipse.microprofile.config</location>
+    </info>
+    <contact>
+      <name>Carsten Reckord</name>
+      <email>reckord@yatta.de</email>
+    </contact>
+    <legal>
+      <!-- no CQ required, since Microprofile is an Eclipse project -->
+      <ipzilla bug_id="00000"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>microprofile-config-api-1.4.jar</package>
+    </legal>
+  </project>
+</ip_log>

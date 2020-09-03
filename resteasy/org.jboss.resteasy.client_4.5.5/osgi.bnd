@@ -1,0 +1,49 @@
+package-version=${version;===;${Bundle-Version}}
+package-export-range=${range;[===,==+);${package-version}}
+
+resteasy-version=${version;===;${package-version}}
+resteasy-range=${range;[===,+);${resteasy-version}}
+
+jaxrs-api-version=${version;==;2.1}
+jaxrs-api-range=${range;[==,+);${jaxrs-api-version}}
+
+microprofile-config-api-version=${version;==;1.0}
+microprofile-config-api-range=${range;[==,+);${microprofile-config-api-version}}
+
+commons-io-version=${version;==;2.5}
+commons-io-range=${range;[==,+);${commons-io-version}}
+
+httpclient-version=${version;===;4.5.10}
+httpclient-range=${range;[==,+);${httpclient-version}}
+
+httpcore-version=${version;===;4.4.12}
+httpcore-range=${range;[==,+);${httpcore-version}}
+
+httpasyncclient-version=${version;===;4.1.4}
+httpasyncclient-range=${range;[==,+);${httpasyncclient-version}}
+
+Import-Package: \
+ ${exports};version="${package-export-range}", \
+ org.jboss.resteasy.*;version="${resteasy-range}", \
+ javax.ws.rs.*;version="${jaxrs-api-range}", \
+ org.apache.commons.io.*;version="${commons-io-range}", \
+ org.apache.http.auth*;version="${httpclient-range}", \
+ org.apache.http.client*;version="${httpclient-range}", \
+ org.apache.http.conn*;version="${httpclient-range}", \
+ org.apache.http.cookie*;version="${httpclient-range}", \
+ org.apache.http.impl.auth*;version="${httpclient-range}", \
+ org.apache.http.impl.client*;version="${httpclient-range}", \
+ org.apache.http.impl.conn*;version="${httpclient-range}", \
+ org.apache.http.impl.cookie*;version="${httpclient-range}", \
+ org.apache.http.impl.execchain*;version="${httpclient-range}", \
+ org.apache.http.nio.*;version="${httpasyncclient-range}";resolution:=optional, \
+ org.apache.http.impl.nio.*;version="${httpasyncclient-range}";resolution:=optional, \
+ org.apache.http.*;version="${httpcore-range}", \
+ org.eclipse.microprofile.config.*;version="${microprofile-config-api-range}", \
+ javax.*, \
+ *;resolution:=optional
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
