@@ -65,6 +65,16 @@
       <query><expression type="match">id ~= /org.jboss.log*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
    </iu>
 
+   <category-def name="rest" label="Orbit Bundles By Scope: REST"/>
+   <iu>
+      <category name="rest"/>
+      <query><expression type="match">id ~= /org.apache.http*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
+   </iu>
+   <iu>
+      <category name="rest"/>
+      <query><expression type="match">id ~= /org.jboss.rest*/ &amp;&amp; properties.exists(p | p.key == 'maven-artifactId')</expression></query>
+   </iu>
+
    <category-def name="nosql" label="Orbit Bundles By Scope: NoSQL"/>
    <iu>
       <category name="nosql"/>

@@ -413,6 +413,8 @@
   <plugin id="javax.validation" version="1.1.0.qualifier" />
   <plugin id="jakarta.websocket" version="2.0.0.qualifier" />
   <plugin id="javax.ws.rs" version="2.1.6.qualifier" />
+  <plugin id="jakarta.validation.jakarta.validation-api" version="2.0.2" />
+  <plugin id="com.sun.xml.bind.jaxb-impl" version="2.3.3" />
 
   <!-- jaxb -->
   <plugin id="com.sun.xml.bind" version="2.2.0.qualifier" />
@@ -436,4 +438,10 @@
   <!-- snakeyaml -->
   <plugin id="org.yaml.snakeyaml" version="1.27.0.qualifier" />
 
+  <!-- RESTEasy -->
+  <plugin id="org.jboss.resteasy.core"         version="4.5.5.qualifier" />
+  <plugin id="org.jboss.resteasy.core.spi"     version="4.5.5.qualifier" />
+  <plugin id="org.jboss.resteasy.client"       version="4.5.5.qualifier" />
+  <plugin id="org.jboss.resteasy.client.api"   version="4.5.5.qualifier" />
+  <plugin id="org.eclipse.microprofile.config" version="1.4.0.qualifier" />
 </feature>
