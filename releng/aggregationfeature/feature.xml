@@ -406,6 +406,7 @@
   <plugin id="jakarta.el" version="4.0.0.qualifier" />
   <plugin id="jakarta.servlet" version="5.0.0.qualifier" />
   <plugin id="jakarta.servlet.jsp" version="3.0.0.qualifier" />
+  <plugin id="jakarta.validation" version="2.0.2.qualifier" />
   <plugin id="jakarta.xml.bind" version="2.3.3.qualifier" />
   <plugin id="javax.activation" version="1.2.2.qualifier" />
   <plugin id="javax.activation" version="2.0.0.qualifier" />
@@ -413,15 +414,14 @@
   <plugin id="javax.validation" version="1.1.0.qualifier" />
   <plugin id="jakarta.websocket" version="2.0.0.qualifier" />
   <plugin id="javax.ws.rs" version="2.1.6.qualifier" />
-  <plugin id="jakarta.validation.jakarta.validation-api" version="2.0.2" />
-  <plugin id="com.sun.xml.bind.jaxb-impl" version="2.3.3" />
+  <plugin id="javax.ws.rs" version="1.1.1.qualifier" />
 
   <!-- jaxb -->
   <plugin id="com.sun.xml.bind" version="2.2.0.qualifier" />
   <plugin id="com.sun.xml.bind" version="2.3.3.qualifier" />
 
   <!-- immutables -->
-  <plugin id="org.immutables.value" version="2.8.3.qualifier" />
+  <plugin id="org.immutables.value" version="2.8.8.qualifier" />
 
   <plugin id="net.sourceforge.plantuml" version="1.2019.0.qualifier" />
 
@@ -439,9 +439,26 @@
   <plugin id="org.yaml.snakeyaml" version="1.27.0.qualifier" />
 
   <!-- RESTEasy -->
-  <plugin id="org.jboss.resteasy.core"         version="4.5.5.qualifier" />
-  <plugin id="org.jboss.resteasy.core.spi"     version="4.5.5.qualifier" />
-  <plugin id="org.jboss.resteasy.client"       version="4.5.5.qualifier" />
-  <plugin id="org.jboss.resteasy.client.api"   version="4.5.5.qualifier" />
+  <plugin id="org.jboss.resteasy.core"         version="4.5.8.qualifier" />
+  <plugin id="org.jboss.resteasy.core.spi"     version="4.5.8.qualifier" />
+  <plugin id="org.jboss.resteasy.client"       version="4.5.8.qualifier" />
+  <plugin id="org.jboss.resteasy.client.api"   version="4.5.8.qualifier" />
+  <plugin id="org.jboss.resteasy.jackson2-provider"   version="4.5.8.qualifier" />
+  <plugin id="org.jboss.resteasy.jaxb-provider"   version="4.5.8.qualifier" />
   <plugin id="org.eclipse.microprofile.config" version="1.4.0.qualifier" />
+
+  <!-- Swagger -->
+  <plugin id="io.swagger.annotations" version="1.6.2.qualifier" />
+  <plugin id="io.swagger.core" version="1.6.2.qualifier" />
+  <plugin id="io.swagger.jaxrs" version="1.6.2.qualifier" />
+  <plugin id="io.swagger.models" version="1.6.2.qualifier" />
+
+  <plugin id="org.reflections" version="0.9.11.qualifier" />
+  <plugin id="org.mapstruct" version="1.4.1.qualifier" />
+  <plugin id="org.javassist" version="3.21.0.qualifier" />
+  <plugin id="org.apache.commons.lang3" version="3.2.1.qualifier" />
+  <plugin id="com.github.java-json-tools.btf" version="1.3.0.qualifier" />
+  <plugin id="com.github.java-json-tools.jackson.coreutils" version="2.0.0.qualifier" />
+  <plugin id="com.github.java-json-tools.msg.simple" version="1.2.0.qualifier" />
+  <plugin id="com.github.java-json-tools.patch" version="1.13.0.qualifier" />
 </feature>

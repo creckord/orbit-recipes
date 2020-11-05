@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: Immutables Recipes</name>
 
   <modules>
-    <module>org.immutables.value_2.8.3</module>
+    <module>org.immutables.value_2.8.8</module>
   </modules>
 
 </project>

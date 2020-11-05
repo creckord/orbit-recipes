@@ -46,6 +46,7 @@
     <module>immutables</module>
     <module>jackson</module>
     <module>jacoco</module>
+    <module>javassist</module>
     <module>javax</module>
     <module>jaxb</module>
     <module>jcraft</module>
@@ -54,13 +55,16 @@
     <module>junit</module>
     <module>knowm</module>
     <module>logging</module>
+    <module>mapstruct</module>
     <module>microprofile</module>
     <module>mockito</module>
     <module>netty</module>
     <module>objenesis</module>
     <module>reactivestreams</module>
     <module>snakeyaml</module>
+    <module>reflections</module>
     <module>sourceforge</module>
+    <module>swagger</module>
     <module>resteasy</module>
     <module>tukaani</module>
     <module>uom</module>

@@ -15,6 +15,7 @@
   <name>Eclipse Orbit :: XML API Recipes</name>
 
   <modules>
+    <module>com.sun.xml.bind_2.3.3</module>
     <module>org.dom4j_1.6.1</module>
     <module>org.dom4j_2.1.1</module>
     <module>org.jaxen_1.1.6</module>
