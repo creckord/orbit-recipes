@@ -1,0 +1,15 @@
+package-version=${version;===;${Bundle-Version}}
+jackson-databind-version-range=${range;[===,+);2.11.0}jackson-databind-version=${version;===;2.11.0}
+msg-simple-version-range=${range;[===,+);1.2}msg-simple-version=${version;===;1.2}
+jackson-coreutils-version-range=${range;[===,+);2.0}jackson-coreutils-version=${version;===;2.0}
+jsr305-version-range=${range;[===,+);3.0.2}jsr305-version=${version;===;3.0.2}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *

@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.orbit.bundles</groupId>
+    <artifactId>orbit-recipes</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>swagger</artifactId>
+  <packaging>pom</packaging>
+
+  <name>Eclipse Orbit :: Swagger Recipes</name>
+
+  <modules>
+    <module>io.swagger.annotations_1.6.2</module>
+    <module>io.swagger.core_1.6.2</module>
+    <module>io.swagger.jaxrs_1.6.2</module>
+    <module>io.swagger.models_1.6.2</module>
+  </modules>
+
+</project>

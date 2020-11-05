@@ -1,0 +1,26 @@
+package-version=${version;===;${Bundle-Version}}
+resteasy-core-spi-version-range=${range;[===,+);4.5.8.Final}resteasy-core-spi-version=${version;===;4.5.8.Final}
+resteasy-jaxb-provider-version-range=${range;[===,+);4.5.8.Final}resteasy-jaxb-provider-version=${version;===;4.5.8.Final}
+resteasy-core-version-range=${range;[===,+);4.5.8.Final}resteasy-core-version=${version;===;4.5.8.Final}
+resteasy-client-version-range=${range;[===,+);4.5.8.Final}resteasy-client-version=${version;===;4.5.8.Final}
+jackson-core-version-range=${range;[===,+);2.10.4}jackson-core-version=${version;===;2.10.4}
+jackson-databind-version-range=${range;[===,+);2.10.4}jackson-databind-version=${version;===;2.10.4}
+jackson-annotations-version-range=${range;[===,+);2.10.4}jackson-annotations-version=${version;===;2.10.4}
+jackson-jaxrs-json-provider-version-range=${range;[===,+);2.10.4}jackson-jaxrs-json-provider-version=${version;===;2.10.4}
+jboss-servlet-api_4.0_spec-version-range=${range;[===,+);2.0.0.Final}jboss-servlet-api_4.0_spec-version=${version;===;2.0.0.Final}
+json-patch-version-range=${range;[===,+);1.9}json-patch-version=${version;===;1.9}
+guava-version-range=${range;[===,+);28.1-jre}guava-version=${version;===;28.1-jre}
+jboss-logging-version-range=${range;[===,+);3.3.2.Final}jboss-logging-version=${version;===;3.3.2.Final}
+jboss-logging-annotations-version-range=${range;[===,+);2.1.0.Final}jboss-logging-annotations-version=${version;===;2.1.0.Final}
+jboss-logging-processor-version-range=${range;[===,+);2.1.0.Final}jboss-logging-processor-version=${version;===;2.1.0.Final}
+resteasy-tracing-api-version-range=${range;[===,+);1.0.0.Final}resteasy-tracing-api-version=${version;===;1.0.0.Final}
+
+Export-Package: \
+ !about.html,!about_files, \
+ *.internal.*;x-internal:=true;version="${package-version}", \
+ *.implementation.*;x-internal:=true;version="${package-version}", \
+ *.impl.*;x-internal:=true;version="${package-version}", \
+ *;version="${package-version}"
+
+Import-Package: \
+ *

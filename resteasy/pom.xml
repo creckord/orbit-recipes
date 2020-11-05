@@ -15,10 +15,12 @@
   <name>Eclipse Orbit :: RESTEasy Recipes</name>
 
   <modules>
-    <module>org.jboss.resteasy.core_4.5.5</module>
-    <module>org.jboss.resteasy.core.spi_4.5.5</module>
-    <module>org.jboss.resteasy.client.api_4.5.5</module>
-    <module>org.jboss.resteasy.client_4.5.5</module>
+    <module>org.jboss.resteasy.core_4.5.8</module>
+    <module>org.jboss.resteasy.core.spi_4.5.8</module>
+    <module>org.jboss.resteasy.client.api_4.5.8</module>
+    <module>org.jboss.resteasy.client_4.5.8</module>
+    <module>org.jboss.resteasy.jaxb-provider_4.5.8</module>
+    <module>org.jboss.resteasy.jackson2-provider_4.5.8</module>
     <module>org.jboss.resteasy.tracing.api_1.0.0</module>
   </modules>
 

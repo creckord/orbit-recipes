@@ -1,0 +1,24 @@
+package-version=${version;===;${Bundle-Version}}
+swagger-range=${range;[==,+);${package-version}}
+
+jackson-version=${version;===;2.11.1}
+jackson-range=${range;[==,+);${jackson-version}}
+
+slf4j-api-version=${version;===;1.7.22}
+slf4j-api-range=${range;[==,+);${slf4j-api-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ io.swagger.models.auth;version="${package-version}", \
+ io.swagger.models.parameters;version="${package-version}", \
+ io.swagger.models.properties;version="${package-version}", \
+ io.swagger.models.refs;version="${package-version}", \
+ io.swagger.models;version="${package-version}", \
+ *;x-internal:=true;version="${package-version}"
+
+Import-Package: \
+ io.swagger.*;version="${swagger-range}", \
+ com.fasterxml.jackson.*;version="${jackson-range}", \
+ org.slf4j.*;version="${slf4j-api-range}", \
+ javax.*, \
+ *;resolution:=optional

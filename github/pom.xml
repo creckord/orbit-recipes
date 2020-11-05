@@ -22,6 +22,7 @@
     <module>ejml</module>
     <module>java-diff-utils</module>
     <module>javaewah</module>
+    <module>java-json-tools</module>
     <module>jnr</module>
     <module>jruby</module>
     <module>jsoup</module>

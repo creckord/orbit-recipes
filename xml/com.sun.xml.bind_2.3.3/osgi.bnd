@@ -1,6 +1,6 @@
 package-version=${version;===;${Bundle-Version}}
 
-istack-version=${version;==;3.0}
+istack-version=${version;==;3.0.11}
 istack-range=${range;[==,+);${istack-version}}
 
 jaxb-api-version=${version;==;${package-version}}
@@ -16,10 +16,14 @@ staxex-range=${range;[==,+);${staxex-version}}
 
 Export-Package: \
  !about.html,!about_files, \
- *;version="${package-version}"
+ com.sun.xml.bind*.impl;x-internal:=true;version="${package-version}", \
+ com.sun.xml.*;version="${package-version}", \
+ com.sun.istack.*;version="${istack-version}", \
+ *;x-internal:=true;version="${package-version}"
 
 Import-Package: \
  com.sun.istack;version="${istack-range}", \
+ com.sun.xml.bind*.impl, \
  com.sun.xml.bind*;version="${jaxb-impl-range}", \
  javax.xml.bind*;version="${jaxb-api-range}", \
  com.sun.xml.fastinfoset*;version="${fastinfoset-range}";resolution:=optional, \

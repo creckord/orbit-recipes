@@ -1,0 +1,40 @@
+package-version=${version;===;${Bundle-Version}}
+swagger-range=${range;[==,+);${package-version}}
+
+jackson-version=${version;===;2.11.1}
+jackson-range=${range;[==,+);${jackson-version}}
+
+guava-version=${version;===;27.0.1}
+guava-range=${range;[==,+);${guava-version}}
+
+validation-api-version=${version;===;1.1.0.Final}
+validation-api-range=${range;[==,+);${validation-api-version}}
+
+commons-lang3-version=${version;===;3.2.1}
+commons-lang3-range=${range;[==,+);${commons-lang3-version}}
+
+slf4j-api-version=${version;===;1.7.22}
+slf4j-api-range=${range;[==,+);${slf4j-api-version}}
+
+Import-Package: \
+ io.swagger.*;version="${swagger-range}", \
+ com.fasterxml.jackson.dataformat.yaml;version="${jackson-range}";resolution:=optional, \
+ com.fasterxml.jackson.*;version="${jackson-range}", \
+ com.google.common.*;version="${guava-range}", \
+ org.apache.commons.lang3.*;version="${commons-lang3-range}", \
+ org.slf4j.*;version="${slf4j-api-range}", \
+ javax.validation.*;version="${validation-api-range}", \
+ javax.*, \
+ *;resolution:=optional
+
+Export-Package: \
+ !about.html,!about_files, \
+ io.swagger.config;version="${package-version}", \
+ io.swagger.converter;version="${package-version}", \
+ io.swagger.core.filter;version="${package-version}", \
+ io.swagger.core.util;version="${package-version}", \
+ io.swagger.core;version="${package-version}", \
+ io.swagger.model;version="${package-version}", \
+ io.swagger.reader;version="${package-version}", \
+ io.swagger.util;version="${package-version}", \
+ *;x-internal:=true;version="${package-version}"
