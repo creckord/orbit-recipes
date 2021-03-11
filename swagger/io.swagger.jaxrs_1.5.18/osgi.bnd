@@ -1,0 +1,45 @@
+package-version=${version;===;${Bundle-Version}}
+swagger-range=${range;[==,+);${package-version}}
+
+jackson-version=${version;===;2.9.3}
+jackson-range=${range;[==,+);${jackson-version}}
+
+guava-range=[20,28)
+
+validation-api-version=${version;===;1.1.0.Final}
+validation-api-range=${range;[==,+);${validation-api-version}}
+
+commons-lang3-version=${version;===;3.2.1}
+commons-lang3-range=${range;[==,+);${commons-lang3-version}}
+
+slf4j-api-version=${version;===;1.7.22}
+slf4j-api-range=${range;[==,+);${slf4j-api-version}}
+
+jsr311-api-version=${version;===;1.1.1}
+jsr311-api-range=${range;[==,+);${jsr311-api-version}}
+
+reflections-version=${version;===;0.9.11}
+reflections-range=${range;[==,+);${reflections-version}}
+
+Export-Package: \
+ !about.html,!about_files, \
+ io.swagger.jaxrs.config;version="${package-version}", \
+ io.swagger.jaxrs.ext;version="${package-version}", \
+ io.swagger.jaxrs.listing;version="${package-version}", \
+ io.swagger.jaxrs;version="${package-version}", \
+ *;x-internal:=true;version="${package-version}"
+
+Import-Package: \
+ io.swagger.*;version="${swagger-range}", \
+ com.fasterxml.jackson.*;version="${jackson-range}", \
+ com.google.common.*;version="${guava-range}", \
+ org.apache.commons.lang3.*;version="${commons-lang3-range}", \
+ org.reflections.scanners;version="${reflections-range}", \
+ org.reflections.util;version="${reflections-range}", \
+ org.reflections;version="${reflections-range}", \
+ org.slf4j.*;version="${slf4j-api-range}", \
+ javax.ws.rs.core;version="${jsr311-api-range}", \
+ javax.ws.rs.ext;version="${jsr311-api-range}", \
+ javax.ws.rs;version="${jsr311-api-range}", \
+ javax.*, \
+ *;resolution:=optional
