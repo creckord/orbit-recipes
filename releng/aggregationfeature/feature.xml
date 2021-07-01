@@ -30,7 +30,7 @@
   <plugin id="com.google.guava" version="27.1.0.qualifier"/>
   <plugin id="com.google.guava" version="30.1.0.qualifier"/>
   <plugin id="com.google.gson" version="2.7.0.qualifier"/>
-  <plugin id="com.google.gson" version="2.8.6.qualifier"/>
+  <plugin id="com.google.gson" version="2.8.7.qualifier"/>
   <plugin id="com.google.gdata" version="1.47.1.qualifier"/>
   <plugin id="com.google.javascript" version="0.0.20160315.qualifier"/>
   <plugin id="com.google.inject" version="5.0.1.qualifier"/>
@@ -65,7 +65,7 @@
 
   <plugin id="com.jcraft.jsch" version="0.1.55.qualifier"/>
 
-  <plugin id="org.apache.ant" version="1.10.9.qualifier"/>
+  <plugin id="org.apache.ant" version="1.10.10.qualifier"/>
 
   <plugin id="org.apache.batik.anim" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.bridge" version="1.9.1.qualifier"/>
@@ -156,8 +156,8 @@
 
   <!-- Mina sshd -->
   <plugin id="net.i2p.crypto.eddsa" version="0.3.0.qualifier"/>
-  <plugin id="org.apache.sshd.osgi" version="2.6.0.qualifier"/>
-  <plugin id="org.apache.sshd.sftp" version="2.6.0.qualifier"/>
+  <plugin id="org.apache.sshd.osgi" version="2.7.0.qualifier"/>
+  <plugin id="org.apache.sshd.sftp" version="2.7.0.qualifier"/>
 
   <!-- Logging -->
   <plugin id="org.slf4j.api"            version="1.7.30.qualifier"/>
@@ -183,7 +183,7 @@
   <plugin id="org.ejml.simple" version="0.29.0.qualifier"/>
   <plugin id="org.ejml.ejml-all" version="0.38.0.qualifier"/>
 
-  <plugin id="javaewah" version="1.1.7.qualifier"/>
+  <plugin id="javaewah" version="1.1.12.qualifier"/>
 
   <plugin id="org.antlr.runtime"   version="3.5.2.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.5.1.qualifier"/>
@@ -195,12 +195,6 @@
   <plugin id="org.apache.logging.log4j" version="2.8.2.qualifier"/>
 
   <!-- ASM -->
-  <plugin id="org.objectweb.asm" version="8.0.1.qualifier"/>
-  <plugin id="org.objectweb.asm.analysis" version="8.0.1.qualifier"/>
-  <plugin id="org.objectweb.asm.commons" version="8.0.1.qualifier"/>
-  <plugin id="org.objectweb.asm.tree" version="8.0.1.qualifier"/>
-  <plugin id="org.objectweb.asm.util" version="8.0.1.qualifier"/>
-
   <plugin id="org.objectweb.asm" version="9.1.0.qualifier"/>
   <plugin id="org.objectweb.asm.analysis" version="9.1.0.qualifier"/>
   <plugin id="org.objectweb.asm.commons" version="9.1.0.qualifier"/>
@@ -213,7 +207,7 @@
   <plugin id="org.apache.commons.logging" version="1.2.0.qualifier"/>
   <plugin id="org.apache.commons.csv" version="1.8.0.qualifier"/>
   <plugin id="org.apache.commons.fileupload" version="1.3.2.qualifier"/>
-  <plugin id="org.apache.commons.io" version="2.6.0.qualifier"/>
+  <plugin id="org.apache.commons.io" version="2.8.0.qualifier"/>
   <plugin id="org.apache.commons.math3" version="3.6.1.qualifier"/>
 
   <plugin id="org.apache.jclouds.api.cloudwatch"          version="1.8.0.qualifier"/>
@@ -303,14 +297,14 @@
   <plugin id="org.mandas.docker-client" version="3.2.1.qualifier"/>
 
   <!-- JaCoCo -->
-  <plugin id="org.jacoco.agent" version="0.8.6.qualifier"/>
-  <plugin id="org.jacoco.core" version="0.8.6.qualifier"/>
-  <plugin id="org.jacoco.report" version="0.8.6.qualifier"/>
+  <plugin id="org.jacoco.agent" version="0.8.7.qualifier"/>
+  <plugin id="org.jacoco.core" version="0.8.7.qualifier"/>
+  <plugin id="org.jacoco.report" version="0.8.7.qualifier"/>
 
   <plugin id="org.jcodings" version="1.0.18.qualifier"/>
   <plugin id="org.joni" version="2.1.11.qualifier"/>
 
-  <plugin id="org.tukaani.xz" version="1.8.0.qualifier"/>
+  <plugin id="org.tukaani.xz" version="1.9.0.qualifier"/>
 
   <!-- JNA -->
   <plugin id="com.sun.jna" version="4.1.0.qualifier"/>
