@@ -19,6 +19,7 @@
     <module>com.fasterxml.jackson.core.jackson-core_2.12.1</module>
     <module>com.fasterxml.jackson.core.jackson-databind_2.12.1</module>
     <module>com.fasterxml.jackson.datatype.jackson-datatype-guava_2.12.1</module>
+    <module>com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.12.1</module>
     <module>com.fasterxml.jackson.jaxrs.jackson-jaxrs-base_2.12.1</module>
     <module>com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider_2.12.1</module>
     <module>com.fasterxml.jackson.module.jackson-module-jaxb-annotations_2.12.1</module>

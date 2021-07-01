@@ -293,6 +293,7 @@
   <plugin id="com.fasterxml.jackson.core.jackson-databind" version="2.12.1.qualifier"/>
   <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-base" version="2.12.1.qualifier"/>
   <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-guava" version="2.12.1.qualifier"/>
+    <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-jsr310" version="2.12.1.qualifier"/>
   <plugin id="com.fasterxml.jackson.core.jackson-annotations" version="2.12.1.qualifier"/>
   <plugin id="com.fasterxml.jackson.core.jackson-core" version="2.12.1.qualifier"/>
   <plugin id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" version="2.12.1.qualifier"/>
