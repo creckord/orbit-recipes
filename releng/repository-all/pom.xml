@@ -28,7 +28,6 @@
           <includeNonGreedy>true</includeNonGreedy>
           <compress>true</compress>
           <append>true</append>
-          <includePacked>true</includePacked>
         </configuration>
         <executions>
           <execution>
@@ -49,6 +48,7 @@
                   <id>org.eclipse.orbit.category.all</id>
                 </iu>
               </ius>
+              <includePacked>false</includePacked>
             </configuration>
           </execution>
           <execution>
@@ -78,6 +78,7 @@
                   </query>
                 </iu>
               </ius>
+              <includePacked>false</includePacked>
             </configuration>
           </execution>
         </executions>

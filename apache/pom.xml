@@ -18,7 +18,7 @@
     <module>org.apache.commons.cli_1.4.0</module>
     <module>org.apache.commons.codec_1.14.0</module>
     <module>org.apache.commons.collections4_4.4.0</module>
-    <module>org.apache.commons.compress_1.19.0</module>
+    <module>org.apache.commons.compress_1.21.0</module>
     <module>org.apache.commons.csv_1.8.0</module>
     <module>org.apache.commons.fileupload_1.3.2</module>
     <module>org.apache.commons.io_2.8.0</module>
@@ -34,13 +34,13 @@
     <module>org.apache.poi.ooxml_4.1.1</module>
     <module>org.apache.poi.ooxml.schemas_4.1.1</module>
     <module>org.apache.santuario.xmlsec_2.2.0</module>
-    <module>org.apache.sshd.osgi_2.7.0</module>
-    <module>org.apache.sshd.sftp_2.7.0</module>
+    <module>org.apache.sshd.osgi_2.8.0</module>
+    <module>org.apache.sshd.sftp_2.8.0</module>
     <module>org.apache.ws.commons.util_1.0.2</module>
     <module>org.apache.wsil4j_1.0.0</module>
     <module>org.apache.xmlbeans_3.1.0</module>
     <module>org.apache.xalan_2.7.2</module>
-    <module>org.apache.xerces_2.12.1</module>
+    <module>org.apache.xerces_2.12.2</module>
     <module>ant</module>
     <module>batik</module>
     <module>felix</module>
@@ -48,6 +48,7 @@
     <module>jclouds</module>
     <module>lucene</module>
     <module>maven</module>
+    <module>tika</module>
     <module>xmlrpc</module>
   </modules>
 

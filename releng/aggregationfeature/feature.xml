@@ -30,7 +30,7 @@
   <plugin id="com.google.guava" version="27.1.0.qualifier"/>
   <plugin id="com.google.guava" version="30.1.0.qualifier"/>
   <plugin id="com.google.gson" version="2.7.0.qualifier"/>
-  <plugin id="com.google.gson" version="2.8.7.qualifier"/>
+  <plugin id="com.google.gson" version="2.8.9.qualifier"/>
   <plugin id="com.google.gdata" version="1.47.1.qualifier"/>
   <plugin id="com.google.javascript" version="0.0.20160315.qualifier"/>
   <plugin id="com.google.inject" version="5.0.1.qualifier"/>
@@ -65,7 +65,7 @@
 
   <plugin id="com.jcraft.jsch" version="0.1.55.qualifier"/>
 
-  <plugin id="org.apache.ant" version="1.10.10.qualifier"/>
+  <plugin id="org.apache.ant" version="1.10.12.qualifier"/>
 
   <plugin id="org.apache.batik.anim" version="1.9.1.qualifier"/>
   <plugin id="org.apache.batik.bridge" version="1.9.1.qualifier"/>
@@ -109,7 +109,7 @@
 
   <plugin id="org.apache.commons.cli" version="1.4.0.qualifier"/>
 
-  <plugin id="org.apache.commons.compress" version="1.19.0.qualifier"/>
+  <plugin id="org.apache.commons.compress" version="1.21.0.qualifier"/>
   <plugin id="org.apache.commons.collections4" version="4.4.0.qualifier"/>
 
   <plugin id="org.apache.felix.gogo.command"  version="1.1.2.qualifier"/>
@@ -118,9 +118,12 @@
 
   <plugin id="org.apache.felix.scr"  version="2.1.24.qualifier"/>
   
+  <plugin id="org.apache.tika.core"  version="1.24.1.qualifier"/>
+  <plugin id="org.apache.tika.parsers"  version="1.24.1.qualifier"/>
+
   <plugin id="org.apache.xalan" version="2.7.2.qualifier"/>
 
-  <plugin id="org.apache.xerces" version="2.12.1.qualifier"/>
+  <plugin id="org.apache.xerces" version="2.12.2.qualifier"/>
 
   <plugin id="org.apache.xmlbeans" version="3.1.0.qualifier"/>
   <plugin id="org.apache.santuario.xmlsec" version="2.2.0.qualifier"/>
@@ -137,10 +140,11 @@
   <plugin id="org.apache.httpcomponents.httpclient" version="4.5.13.qualifier"/>
   <plugin id="org.apache.httpcomponents.httpclient.win" os="win32" version="4.5.13.qualifier"/>
 
-  <plugin id="org.apache.httpcomponents.core5.httpcore5" version="5.0.2.qualifier"/>
+  <plugin id="org.apache.httpcomponents.core5.httpcore5" version="5.1.2.qualifier"/>
   <plugin id="org.conscrypt.conscrypt-openjdk-uber" version="2.5.1.qualifier"/>"
-  <plugin id="org.apache.httpcomponents.core5.httpcore5-h2" version="5.0.2.qualifier"/>
-  <plugin id="org.apache.httpcomponents.client5.httpclient5" version="5.0.2.qualifier"/>
+  <plugin id="org.apache.httpcomponents.core5.httpcore5-h2" version="5.1.2.qualifier"/>
+  <plugin id="org.apache.httpcomponents.client5.httpclient5" version="5.1.2.qualifier"/>
+  <plugin id="org.apache.httpcomponents.client5.httpclient5-win" version="5.1.2.qualifier"/>
 
   <plugin id="org.apache.lucene.core"              version="7.5.0.qualifier"/>
   <plugin id="org.apache.lucene.analyzers-common"  version="7.5.0.qualifier"/>
@@ -156,8 +160,8 @@
 
   <!-- Mina sshd -->
   <plugin id="net.i2p.crypto.eddsa" version="0.3.0.qualifier"/>
-  <plugin id="org.apache.sshd.osgi" version="2.7.0.qualifier"/>
-  <plugin id="org.apache.sshd.sftp" version="2.7.0.qualifier"/>
+  <plugin id="org.apache.sshd.osgi" version="2.8.0.qualifier"/>
+  <plugin id="org.apache.sshd.sftp" version="2.8.0.qualifier"/>
 
   <!-- Logging -->
   <plugin id="org.slf4j.api"            version="1.7.30.qualifier"/>
@@ -183,7 +187,7 @@
   <plugin id="org.ejml.simple" version="0.29.0.qualifier"/>
   <plugin id="org.ejml.ejml-all" version="0.38.0.qualifier"/>
 
-  <plugin id="javaewah" version="1.1.12.qualifier"/>
+  <plugin id="javaewah" version="1.1.13.qualifier"/>
 
   <plugin id="org.antlr.runtime"   version="3.5.2.qualifier"/>
   <plugin id="org.antlr.runtime"   version="4.5.1.qualifier"/>
@@ -191,8 +195,8 @@
   <plugin id="org.antlr.runtime"   version="4.7.2.qualifier"/>
 
   <plugin id="org.freemarker" version="2.3.22.qualifier"/>
-  
-  <plugin id="org.apache.logging.log4j" version="2.8.2.qualifier"/>
+
+  <plugin id="org.apache.logging.log4j" version="2.17.1.qualifier"/>
 
   <!-- ASM -->
   <plugin id="org.objectweb.asm" version="9.1.0.qualifier"/>
@@ -201,7 +205,13 @@
   <plugin id="org.objectweb.asm.tree" version="9.1.0.qualifier"/>
   <plugin id="org.objectweb.asm.util" version="9.1.0.qualifier"/>
 
-  <plugin id="org.assertj" version="3.14.0.qualifier"/>
+  <plugin id="org.objectweb.asm" version="9.2.0.qualifier"/>
+  <plugin id="org.objectweb.asm.analysis" version="9.2.0.qualifier"/>
+  <plugin id="org.objectweb.asm.commons" version="9.2.0.qualifier"/>
+  <plugin id="org.objectweb.asm.tree" version="9.2.0.qualifier"/>
+  <plugin id="org.objectweb.asm.util" version="9.2.0.qualifier"/>
+
+  <plugin id="org.assertj" version="3.20.2.qualifier"/>
 
   <plugin id="org.apache.commons.codec" version="1.14.0.qualifier"/>
   <plugin id="org.apache.commons.logging" version="1.2.0.qualifier"/>
@@ -242,13 +252,14 @@
   <plugin id="org.apache.ws.commons.util" version="1.0.2.qualifier"/>
   <plugin id="org.apache.wsil4j" version="1.0.0.qualifier"/>
 
-  <plugin id="org.bouncycastle.bcpg" version="1.65.0.qualifier"/>
-  <plugin id="org.bouncycastle.bcpkix" version="1.65.0.qualifier"/>
-  <plugin id="org.bouncycastle.bcprov" version="1.65.01.qualifier"/>
+  <plugin id="org.bouncycastle.bcpg" version="1.70.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcpkix" version="1.70.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcprov" version="1.70.0.qualifier"/>
+  <plugin id="org.bouncycastle.bcutil" version="1.70.0.qualifier"/>
 
   <plugin id="org.eclipse.orbit.mongodb" version="3.2.2.qualifier"/>
 
-  <plugin id="io.github.classgraph" version="4.8.35.qualifier"/>
+  <plugin id="io.github.classgraph" version="4.8.138.qualifier"/>
 
   <plugin id="org.kohsuke.args4j" version="2.33.0.qualifier"/>
 
@@ -326,7 +337,7 @@
     <plugin id="com.github.virtuald.curvesapi" version="1.6.0.qualifier"/>
 
   <!-- JSoup -->
-  <plugin id="org.jsoup" version="1.8.3.qualifier"/>
+  <plugin id="org.jsoup" version="1.14.3.qualifier"/>
 
   <!-- Maven Resolver (ex-Eclipse Aether) -->
   <plugin id="org.apache.maven.resolver.api" version="1.0.3.qualifier"/>
@@ -337,25 +348,28 @@
   <plugin id="org.apache.maven.resolver.transport.http" version="1.0.3.qualifier"/>
   <plugin id="org.apache.maven.resolver.util" version="1.0.3.qualifier"/>
 
-  <plugin id="org.junit" version="4.13.0.qualifier"/>
+  <plugin id="org.junit" version="4.13.2.qualifier"/>
 
-  <!-- JUnit 5.7.0 -->
-  <plugin id="org.junit.jupiter.api" version="5.7.1.qualifier"/>
-  <plugin id="org.junit.jupiter.engine" version="5.7.1.qualifier"/>
-  <plugin id="org.junit.jupiter.migrationsupport" version="5.7.1.qualifier"/>
-  <plugin id="org.junit.jupiter.params" version="5.7.1.qualifier"/>
-  <plugin id="org.junit.platform.commons" version="1.7.1.qualifier"/>
-  <plugin id="org.junit.platform.engine" version="1.7.1.qualifier"/>
-  <plugin id="org.junit.platform.launcher" version="1.7.1.qualifier"/>
-  <plugin id="org.junit.platform.runner" version="1.7.1.qualifier"/>
-  <plugin id="org.junit.platform.suite.api" version="1.7.1.qualifier"/>
-  <plugin id="org.junit.vintage.engine" version="5.7.1.qualifier"/>
+  <!-- JUnit 5.8.0 -->
+  <plugin id="org.junit.jupiter.api" version="5.8.1.qualifier"/>
+  <plugin id="org.junit.jupiter.engine" version="5.8.1.qualifier"/>
+  <plugin id="org.junit.jupiter.migrationsupport" version="5.8.1.qualifier"/>
+  <plugin id="org.junit.jupiter.params" version="5.8.1.qualifier"/>
+  <plugin id="org.junit.platform.commons" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.engine" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.launcher" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.runner" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.suite.api" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.suite.commons" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.platform.suite.engine" version="1.8.1.qualifier"/>
+  <plugin id="org.junit.vintage.engine" version="5.8.1.qualifier"/>
   <plugin id="org.opentest4j" version="1.2.0.qualifier"/>
-  <plugin id="org.apiguardian" version="1.1.0.qualifier"/>
+  <plugin id="org.apiguardian" version="1.1.2.qualifier"/>
 
   <!-- Hamcrest -->
   <plugin id="org.hamcrest.core" version="1.3.0.qualifier"/>
   <plugin id="org.hamcrest.library" version="1.3.0.qualifier"/>
+  <plugin id="org.hamcrest" version="2.2.0.qualifier"/>
 
   <!-- XML APIs -->
   <plugin id="org.dom4j" version="1.6.1.qualifier"/>

@@ -6,13 +6,15 @@ function ebr () {
 
 # Edit these as needed for 'org.junit.platform'
 GID_PLATFORM='org.junit.platform'
-VERSION_PLATFORM='1.7.1'
+VERSION_PLATFORM='1.8.1'
 ARTIDS_PLATFORM=(
 junit-platform-commons
 junit-platform-engine
 junit-platform-launcher
 junit-platform-runner
 junit-platform-suite-api
+junit-platform-suite-commons
+junit-platform-suite-engine
 )
 BSNS_PLATFORM=(
 org.junit.platform.commons
@@ -20,6 +22,8 @@ org.junit.platform.engine
 org.junit.platform.launcher
 org.junit.platform.runner
 org.junit.platform.suite.api
+org.junit.platform.suite.commons
+org.junit.platform.suite.engine
 )
 
 for (( i=0; i< ${#ARTIDS_PLATFORM[@]}; i++ )); do
@@ -28,7 +32,7 @@ done
 
 # Edit these as needed for 'org.junit.jupiter'
 GID_JUPITER='org.junit.jupiter'
-VERSION_JUPITER='5.7.1'
+VERSION_JUPITER='5.8.1'
 ARTIDS_JUPITER=(
 junit-jupiter-api
 junit-jupiter-engine
@@ -48,7 +52,7 @@ done
 
 # Edit these as needed for 'org.junit.vintage'
 GID_VINTAGE='org.junit.vintage'
-VERSION_VINTAGE='5.7.1'
+VERSION_VINTAGE='5.8.1'
 ARTIDS_VINTAGE=(
 junit-vintage-engine
 )
@@ -62,7 +66,7 @@ done
 
 # Edit these as needed for 'org.opentest4j'
 GID_OPENTEST4J='org.opentest4j'
-VERSION_OPENTEST4J='1.1.1'
+VERSION_OPENTEST4J='1.2.0'
 ARTIDS_OPENTEST4J=(
 opentest4j
 )
@@ -76,7 +80,7 @@ done
 
 # Edit these as needed for 'org.apiguardian'
 GID_APIGUARDIAN='org.apiguardian'
-VERSION_APIGUARDIAN='1.0.0'
+VERSION_APIGUARDIAN='1.1.2'
 ARTIDS_APIGUARDIAN=(
 apiguardian-api
 )
