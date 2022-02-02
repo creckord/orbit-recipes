@@ -7,11 +7,12 @@
       <location>resteasy/org.jboss.resteasy.core</location>
     </info>
     <contact>
-      <name>Carsten Reckord</name>
-      <email>reckord@yatta.de</email>
+      <name>Frederic Ebelshäuser</name>
+      <email>frederic.ebelshaeuser@yatta.de</email>
+      <company>Yatta Solutions GmbH</company>
     </contact>
     <legal>
-      <ipzilla bug_id=""/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.jboss.resteasy/resteasy-core/4.5.8.Final"/>
       <license>
         <name>Apache License, 2.0</name>
         <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>

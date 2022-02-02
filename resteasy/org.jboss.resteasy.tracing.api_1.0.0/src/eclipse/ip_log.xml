@@ -7,12 +7,12 @@
       <location>resteasy/org.jboss.resteasy.tracing.api</location>
     </info>
     <contact>
-      <name></name>
-      <email></email>
-      <company></company>
+      <name>Frederic Ebelshäuser</name>
+      <email>frederic.ebelshaeuser@yatta.de</email>
+      <company>Yatta Solutions GmbH</company>
     </contact>
     <legal>
-      <ipzilla bug_id=""/>
+      <clearlydefined url="https://clearlydefined.io/definitions/maven/mavencentral/org.jboss.resteasy/resteasy-tracing-api/1.0.0.Final"/>
       <license>
         <name>Common Development and Distribution License</name>
         <reference>https://glassfish.java.net/public/CDDLv1.0.html</reference>
