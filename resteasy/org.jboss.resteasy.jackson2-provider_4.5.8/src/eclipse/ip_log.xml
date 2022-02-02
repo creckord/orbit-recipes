@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_log version="1.0">
+  <project id="org.jboss.resteasy.core" version="4.5.8" status="done">
+    <info>
+      <name>RESTEasy Jackson 2 Provider</name>
+      <repository>scm:git:git.eclipse.org:/gitroot/orbit/recipes.git</repository>
+      <location>resteasy/org.jboss.resteasy.jackson2-provider</location>
+    </info>
+    <contact>
+      <name>Frederic Ebelshäuser</name>
+      <email>frederic.ebelshaeuser@yatta.de</email>
+      <company>Yatta Solutions GmbH</company>
+    </contact>
+    <legal>
+      <clearlydefined url="https://clearlydefined.io/definitions/sourcearchive/mavencentral/org.jboss.resteasy/resteasy-jackson2-provider/4.5.8.Final"/>
+      <license>
+        <name>Apache License, 2.0</name>
+        <reference>http://www.apache.org/licenses/LICENSE-2.0.txt</reference>
+      </license>
+      <package>resteasy-jackson2-provider-4.5.8.Final.jar</package>
+    </legal>
+  </project>
+</ip_log>
